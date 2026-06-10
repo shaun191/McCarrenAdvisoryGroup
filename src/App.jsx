@@ -169,6 +169,7 @@ export default function FounderTransitionWebsite() {
               <a href="#services" className="hover:text-white">Services</a>
               <a href="#fit" className="hover:text-white">Who We Help</a>
               <a href="#process" className="hover:text-white">Process</a>
+              <a href="#about" className="hover:text-white">About</a>
               <a href="#contact" className="hover:text-white">Contact</a>
             </div>
           </nav>
@@ -327,6 +328,39 @@ export default function FounderTransitionWebsite() {
                 <li>Sale or recapitalization is being considered</li>
                 <li>Business depends too heavily on the owner</li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" className="bg-slate-50 py-20 text-slate-950">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Meet the founder</p>
+          <h2 className="mt-4 text-3xl font-semibold tracking-tight md:text-5xl">
+            Advice from an owner who&rsquo;s lived it.
+          </h2>
+          <div className="mt-12 grid gap-10 lg:grid-cols-3">
+            <div className="lg:col-span-1">
+              <div className="flex h-24 w-24 items-center justify-center rounded-full bg-slate-950 text-3xl font-semibold text-white">SM</div>
+              <div className="mt-5 text-xl font-semibold">Shaun McCarren</div>
+              <div className="text-slate-600">Founder &amp; Principal</div>
+              <div className="text-slate-600">Rockford, IL</div>
+              <ul className="mt-5 space-y-2 text-sm text-slate-700">
+                <li className="flex gap-2"><CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-teal-600" />Family-business owner</li>
+                <li className="flex gap-2"><CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-teal-600" />Finance background</li>
+                <li className="flex gap-2"><CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-teal-600" />Operations, ERP &amp; AI</li>
+              </ul>
+            </div>
+            <div className="lg:col-span-2">
+              <p className="text-lg leading-8 text-slate-600">
+                Shaun is the founder of McCarren Advisory Group, where he helps owners of manufacturing and family businesses around the Rockford area get ready for succession and strengthen their companies along the way. Part succession planner and part hands-on advisor, he&rsquo;s a family-business owner himself &mdash; he has run a company, met a payroll, and lived the same highs and lows the owners he works with face every day.
+              </p>
+              <p className="mt-4 text-lg leading-8 text-slate-600">
+                He pairs that real-world experience with a formal finance education, filling the gap that usually sits between an owner&rsquo;s attorney and accountant. Beyond the transition itself, he digs into the operations side &mdash; ERP systems, best practices, and AI &mdash; and brings an outside set of eyes that often spots the small tweaks that add real business or cut substantial cost.
+              </p>
+              <blockquote className="mt-6 border-l-4 border-teal-500 pl-5 text-xl italic leading-relaxed text-slate-950">
+                &ldquo;I&rsquo;d rather help an owner get ready early than watch a good company struggle because no one planned.&rdquo;
+              </blockquote>
             </div>
           </div>
         </div>
