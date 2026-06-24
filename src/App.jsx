@@ -341,7 +341,7 @@ export default function FounderTransitionWebsite() {
           </h2>
           <div className="mt-12 grid gap-10 lg:grid-cols-3">
             <div className="lg:col-span-1">
-              <div className="flex h-24 w-24 items-center justify-center rounded-full bg-slate-950 text-3xl font-semibold text-white overflow-hidden"><img src="/shaun.jpg" alt="Shaun McCarren" className="h-full w-full object-cover" /></div>
+              <div className="mb-5 w-full max-w-[240px] overflow-hidden rounded-2xl bg-slate-100"><img src="/shaun.jpg" alt="Shaun McCarren" className="block h-auto w-full" /></div>
               <div className="mt-5 text-xl font-semibold">Shaun McCarren</div>
               <div className="text-slate-600">Founder &amp; Principal</div>
               <div className="text-slate-600">Rockford, IL</div>
