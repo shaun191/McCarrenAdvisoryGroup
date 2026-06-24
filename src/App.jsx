@@ -1,4 +1,10 @@
 import React from "react";
+
+function trackBooking() {
+  if (typeof window !== "undefined" && window.gtag) {
+    window.gtag("event", "conversion", { send_to: "AW-1071930895/UJYUCP2Z_8QcEI-8kf8D" });
+  }
+}
 import { motion } from "framer-motion";
 
 
@@ -186,7 +192,7 @@ export default function FounderTransitionWebsite() {
                 We help founder-led manufacturing and industrial companies reduce owner dependency, build leadership capacity, professionalize operations, and prepare for succession, sale, or generational transfer.
               </p>
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-                <a href='https://outlook.office.com/book/McCarrenAdvisoryGroup@flow-eze.com/?ismsaljsauthenabled'
+                <a href='https://outlook.office.com/book/McCarrenAdvisoryGroup@flow-eze.com/?ismsaljsauthenabled' onClick={trackBooking}
   target="_blank"
   rel="noopener noreferrer" className="inline-flex items-center rounded-2xl bg-white px-6 py-4 text-base font-semibold text-slate-950 shadow-sm hover:bg-slate-100">
                   Schedule a Readiness Call <ArrowRight className="ml-2 h-5 w-5" />
@@ -380,7 +386,7 @@ export default function FounderTransitionWebsite() {
             </a>
           </div>
           <p className="mt-6 text-sm text-slate-500"><a
-  href="https://outlook.office.com/book/McCarrenAdvisoryGroup@flow-eze.com/?ismsaljsauthenabled"
+  href="https://outlook.office.com/book/McCarrenAdvisoryGroup@flow-eze.com/?ismsaljsauthenabled" onClick={trackBooking}
   target="_blank"
   rel="noopener noreferrer"
 >
