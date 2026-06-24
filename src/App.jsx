@@ -230,7 +230,7 @@ export default function FounderTransitionWebsite() {
               Built for owners who are still too central to the business.
             </h2>
             <p className="mt-6 text-lg leading-8 text-slate-600">
-              Our work is designed for privately held, founder-led, family-owned, and lower-middle-market companies where leadership transition is not just an HR issue — it is an operational risk.
+              Our work is designed for privately held, founder-led, family-owned, and lower-middle-market companies where leadership transition is not just an HR issue â it is an operational risk.
             </p>
           </div>
           <div className="mt-10 flex flex-wrap gap-3">
@@ -353,7 +353,7 @@ export default function FounderTransitionWebsite() {
             </div>
             <div className="lg:col-span-2">
               <p className="text-lg leading-8 text-slate-600">
-                Shaun is the founder of McCarren Advisory Group, where he helps owners of manufacturing and family businesses around the Rockford area get ready for succession and strengthen their companies along the way. Part succession planner and part hands-on advisor, he&rsquo;s a family-business owner himself &mdash; he has run a company, met a payroll, and lived the same highs and lows the owners he works with face every day.
+                Shaun is the founder of McCarren Advisory Group, where he helps owners of manufacturing and family businesses around the Rockford area — and across the Midwest and nationwide get ready for succession and strengthen their companies along the way. Part succession planner and part hands-on advisor, he&rsquo;s a family-business owner himself &mdash; he has run a company, met a payroll, and lived the same highs and lows the owners he works with face every day.
               </p>
               <p className="mt-4 text-lg leading-8 text-slate-600">
                 He pairs that real-world experience with a formal finance education, filling the gap that usually sits between an owner&rsquo;s attorney and accountant. Beyond the transition itself, he digs into the operations side &mdash; ERP systems, best practices, and AI &mdash; and brings an outside set of eyes that often spots the small tweaks that add real business or cut substantial cost.
@@ -372,7 +372,7 @@ export default function FounderTransitionWebsite() {
             Ready to understand how transferable your business really is?
           </h2>
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            Start with a confidential readiness conversation. We will discuss where the business is most dependent on the current owner and what would need to change before succession, sale, or transition.
+            Start with a confidential readiness conversation. We will discuss where the business is most dependent on the current owner and what would need to change before succession, sale, or transition. Prefer to talk now? Call <a href="tel:+17792108351" className="font-semibold text-slate-900 underline">(779) 210-8351</a>.
           </p>
           <div className="mt-10">
             <a href="mailto:preparedwith@mccarrenadvisory.com" className="inline-flex items-center rounded-2xl bg-slate-950 px-8 py-4 text-base font-semibold text-white shadow-sm hover:bg-slate-800">
