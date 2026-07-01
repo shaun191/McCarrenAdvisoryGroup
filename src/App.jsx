@@ -397,13 +397,17 @@ export default function FounderTransitionWebsite() {
               Contact McCarren Advisory Group <ArrowRight className="ml-2 h-5 w-5" />
             </a>
           </div>
-          <p className="mt-6 text-sm text-slate-500"><a
-  href="https://outlook.office.com/book/McCarrenAdvisoryGroup@flow-eze.com/?ismsaljsauthenabled" onClick={trackBooking}
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Schedule a complimentary call here
-</a></p>
+          <div className="mt-8">
+            <a
+              href="https://outlook.office.com/book/McCarrenAdvisoryGroup@flow-eze.com/?ismsaljsauthenabled"
+              onClick={trackBooking}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-2xl bg-sky-700 px-10 py-5 text-lg font-bold text-white shadow-lg hover:bg-sky-600 hover:shadow-xl transition-all"
+            >
+              Schedule a Confidential, Complimentary Call <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
+          </div>
         </div>
       </section>
     </div>
