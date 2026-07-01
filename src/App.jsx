@@ -2,7 +2,7 @@ import React from "react";
 
 function trackBooking() {
   if (typeof window !== "undefined" && window.gtag) {
-    window.gtag("event", "conversion", { send_to: "AW-1071930895/UJYUCP2Z_8QcEI-8kf8D" });
+    window.gtag("event", "conversion", { send_to: "AW-18291211119/Bp2sCNOn7sgcEO_29pFE" });
   }
 }
 import { motion } from "framer-motion";
