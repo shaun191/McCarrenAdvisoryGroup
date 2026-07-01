@@ -381,6 +381,29 @@ export default function FounderTransitionWebsite() {
               </blockquote>
             </div>
           </div>
+          <div className="mx-auto mt-16 max-w-5xl border-t border-slate-200 pt-12">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">What people say</p>
+            <div className="mt-8 grid gap-6 md:grid-cols-2">
+              <figure className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <blockquote className="text-base italic leading-relaxed text-slate-700">
+                  &ldquo;I have worked with Shaun since July 2007. He has delivered at or near 100% on-time and complete&hellip; His communication and organization skills are excellent. He delivers a great product and service and is always willing to work with me to improve any aspects of the process.&rdquo;
+                </blockquote>
+                <figcaption className="mt-5 border-t border-slate-100 pt-4">
+                  <div className="font-semibold text-slate-950">Gary Heaser</div>
+                  <div className="text-sm text-slate-600">Sr. Supply Chain Analyst, 3M</div>
+                </figcaption>
+              </figure>
+              <figure className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <blockquote className="text-base italic leading-relaxed text-slate-700">
+                  &ldquo;Shaun&rsquo;s business experience plus his education background provides him with strong problem solving as well as analytical skill set. He is hard working and not afraid of challenge&hellip; with skill sets to tackle rather sophisticated business problems and make sound business decisions.&rdquo;
+                </blockquote>
+                <figcaption className="mt-5 border-t border-slate-100 pt-4">
+                  <div className="font-semibold text-slate-950">Masoud Moallem</div>
+                  <div className="text-sm text-slate-600">Professor of Economics &amp; Business, Rockford College</div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
         </div>
       </section>
 
