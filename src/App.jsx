@@ -398,7 +398,7 @@ export default function FounderTransitionWebsite() {
                   &ldquo;Shaun&rsquo;s business experience plus his education background provides him with strong problem solving as well as analytical skill set. He is hard working and not afraid of challenge&hellip; with skill sets to tackle rather sophisticated business problems and make sound business decisions.&rdquo;
                 </blockquote>
                 <figcaption className="mt-5 border-t border-slate-100 pt-4">
-                  <div className="font-semibold text-slate-950">Masoud Moallem</div>
+                  <div className="font-semibold text-slate-950">Masoud Moallem, PhD</div>
                   <div className="text-sm text-slate-600">Professor of Economics &amp; Business, Rockford College</div>
                 </figcaption>
               </figure>
@@ -433,6 +433,21 @@ export default function FounderTransitionWebsite() {
           </div>
         </div>
       </section>
+      <footer className="bg-slate-950 py-12 text-slate-400">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <p className="text-sm leading-6">
+            McCarren Advisory Group, LLC provides operational and succession advisory services only. Nothing on this site constitutes legal, tax, accounting, financial, or investment advice, and no attorney-client or fiduciary relationship is created. Consult your own attorney, accountant, and financial advisors before making decisions. We do not guarantee any particular outcome.
+          </p>
+          <div className="mt-6 flex flex-col gap-3 border-t border-slate-800 pt-6 text-sm sm:flex-row sm:items-center sm:justify-between">
+            <p>&copy; 2026 McCarren Advisory Group, LLC. All rights reserved.</p>
+            <div className="flex flex-wrap gap-x-6 gap-y-2">
+              <a href="/privacy.html" className="hover:text-white">Privacy Policy</a>
+              <a href="/terms.html" className="hover:text-white">Terms of Use</a>
+              <a href="mailto:preparedwith@mccarrenadvisory.com" className="hover:text-white">preparedwith@mccarrenadvisory.com</a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
