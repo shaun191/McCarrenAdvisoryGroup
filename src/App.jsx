@@ -145,11 +145,23 @@ const services = [
 
 const industries = [
   "Manufacturing",
+  "CPG Manufacturing",
+  "Co-Packers",
   "Packaging",
   "Contract Decorating",
+  "Printing",
+  "Promotional Products Suppliers",
+  "Promotional Products Distributors",
+  "Plastics & Injection Molding",
+  "Machine Shops",
+  "Aviation",
+  "Personal Care",
+  "Beauty & Cosmetics",
   "Industrial Services",
   "Distribution",
-  "Founder-Led B2B Companies"
+  "Founder-Led B2B Companies",
+  "Service Businesses",
+  "& more"
 ];
 
 function runSanityTests() {
@@ -189,7 +201,7 @@ export default function FounderTransitionWebsite() {
                 Make your business transferable before transition forces your hand.
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
-                We help founder-led manufacturing and industrial companies reduce owner dependency, build leadership capacity, professionalize operations, and prepare for succession, sale, or generational transfer.
+                We help founder-led manufacturing, industrial, B2B, and service companies reduce owner dependency, build leadership capacity, professionalize operations, and prepare for succession, sale, or generational transfer.
               </p>
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
                 <a href='https://outlook.office.com/book/McCarrenAdvisoryGroup@flow-eze.com/?ismsaljsauthenabled' onClick={trackBooking}
