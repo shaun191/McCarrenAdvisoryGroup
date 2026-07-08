@@ -18,10 +18,10 @@ const LEAD_ENDPOINT = "https://e5c9aacced60e92380989bbfbbd379.0e.environment.api
 
 // Optional: a dedicated Google Ads "lead" conversion label, e.g. "AW-18291211119/AbCdEfg".
 // Leave blank to only fire the standard GA4 "generate_lead" event.
-const LEAD_CONVERSION_SEND_TO = "";
+const LEAD_CONVERSION_SEND_TO = "AW-18291211119/yFfxCO2ShckcEO_29pFE";
 
 // Show the timed popup after this many seconds (exit-intent can trigger sooner).
-const AUTO_OPEN_DELAY_MS = 25000;
+const AUTO_OPEN_DELAY_MS = 15000;
 const SEEN_KEY = "mag_resource_popup_seen_v1";
 
 const TOPICS = [
@@ -98,10 +98,10 @@ export default function ResourcePopup() {
   const [error, setError] = useState("");
   const seenRef = useRef(false);
 
-  // Auto-open once per visitor: timed + exit-intent.
+  // Auto-open once per session: timed + exit-intent.
   useEffect(() => {
     try {
-      seenRef.current = window.localStorage.getItem(SEEN_KEY) === "1";
+      seenRef.current = window.sessionStorage.getItem(SEEN_KEY) === "1";
     } catch {
       seenRef.current = false;
     }
@@ -111,7 +111,7 @@ export default function ResourcePopup() {
       if (seenRef.current) return;
       seenRef.current = true;
       try {
-        window.localStorage.setItem(SEEN_KEY, "1");
+        window.sessionStorage.setItem(SEEN_KEY, "1");
       } catch {
         /* ignore */
       }
@@ -146,7 +146,7 @@ export default function ResourcePopup() {
   function openManually() {
     seenRef.current = true;
     try {
-      window.localStorage.setItem(SEEN_KEY, "1");
+      window.sessionStorage.setItem(SEEN_KEY, "1");
     } catch {
       /* ignore */
     }
