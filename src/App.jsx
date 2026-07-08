@@ -1,4 +1,5 @@
 import React from "react";
+import ResourcePopup from "./ResourcePopup";
 
 function trackBooking() {
   if (typeof window !== "undefined" && window.gtag) {
@@ -178,6 +179,7 @@ runSanityTests();
 export default function FounderTransitionWebsite() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
+      <ResourcePopup />
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(59,130,246,0.25),_transparent_35%),radial-gradient(circle_at_bottom_right,_rgba(20,184,166,0.18),_transparent_30%)]" />
         <div className="relative mx-auto max-w-7xl px-6 py-8 lg:px-8">
