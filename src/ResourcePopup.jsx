@@ -14,7 +14,7 @@ import { motion, AnimatePresence } from "framer-motion";
   Until you do, the popup still works end-to-end (PDF downloads, conversion
   fires); the lead POST is simply skipped.
 */
-const LEAD_ENDPOINT = ""; // e.g. "https://prod-xx.westus.logic.azure.com/workflows/.../triggers/manual/paths/invoke?..."
+const LEAD_ENDPOINT = "https://e5c9aacced60e92380989bbfbbd379.0e.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/42973334ea7b44bbb7f0a8a2ed217327/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=OTcK0rBA4DF1hq0F65TunIJoAlXe_hWF2SPYMs9MYDw";
 
 // Optional: a dedicated Google Ads "lead" conversion label, e.g. "AW-18291211119/AbCdEfg".
 // Leave blank to only fire the standard GA4 "generate_lead" event.
