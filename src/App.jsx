@@ -209,7 +209,7 @@ export default function FounderTransitionWebsite() {
                 <a href='https://outlook.office.com/book/McCarrenAdvisoryGroup@flow-eze.com/?ismsaljsauthenabled' onClick={trackBooking}
   target="_blank"
   rel="noopener noreferrer" className="inline-flex items-center rounded-2xl bg-white px-6 py-4 text-base font-semibold text-slate-950 shadow-sm hover:bg-slate-100">
-                  Schedule a Readiness Call <ArrowRight className="ml-2 h-5 w-5" />
+                  Schedule a Free 30 Minute Readiness Call <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
                 <a href="#services" className="inline-flex items-center rounded-2xl border border-slate-600 bg-white/5 px-6 py-4 text-base font-semibold text-white hover:bg-white/10">
                   View Services
