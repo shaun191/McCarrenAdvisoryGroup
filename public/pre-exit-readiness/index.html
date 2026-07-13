@@ -95,6 +95,14 @@
     .bar .btn{display:none}
   }
 </style>
+<!-- Google tag (gtag.js) — enables the Google Ads lead conversion fired on form submit -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18291211119"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18291211119');
+</script>
 </head>
 <body>
 
@@ -195,7 +203,7 @@
           <li>A 12-month runway to a stronger exit</li>
         </ul>
       </div>
-      <form class="lead" id="assessment" method="post" action="REPLACE_WITH_FORM_ENDPOINT" data-lead-source="lp-pre-exit-readiness">
+      <form class="lead" id="assessment" data-lead-source="lp-pre-exit-readiness" data-topic-label="Landing page: Pre-Exit Readiness" data-guide="The Owner-Independent Business Guide" data-guide-file="/resources/McCarren_Owner_Independent_Business_Guide.pdf">
         <label for="name">Name</label>
         <input id="name" name="name" type="text" required>
         <label for="company">Company</label>
@@ -243,6 +251,7 @@
   }catch(e){}
 })();
 </script>
+<script src="/lead-form.js"></script>
 
 </body>
 </html>
