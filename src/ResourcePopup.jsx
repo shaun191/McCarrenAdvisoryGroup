@@ -357,7 +357,7 @@ export default function ResourcePopup() {
                     <p className="mt-2 text-sm leading-6 text-slate-600">
                       Enter your details and your guide downloads right away.
                     </p>
-                    <form className="mt-6 space-y-4" onSubmit={handleSubmit}>
+                    <form className="mt-6 space-y-4" onSubmit={handleSubmit} autoComplete="off">
                       <div>
                         <label htmlFor="mag-name" className="block text-sm font-medium text-slate-700">Name</label>
                         <input
@@ -367,7 +367,7 @@ export default function ResourcePopup() {
                           onChange={(e) => setForm({ ...form, name: e.target.value })}
                           className="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-sky-500 focus:ring-2 focus:ring-sky-200"
                           placeholder="Jane Owner"
-                          autoComplete="name"
+                          autoComplete="off"
                         />
                       </div>
                       <div>
@@ -379,7 +379,7 @@ export default function ResourcePopup() {
                           onChange={(e) => setForm({ ...form, email: e.target.value })}
                           className="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-sky-500 focus:ring-2 focus:ring-sky-200"
                           placeholder="jane@company.com"
-                          autoComplete="email"
+                          autoComplete="off"
                         />
                       </div>
                       <div className="grid gap-4 sm:grid-cols-2">
@@ -394,7 +394,7 @@ export default function ResourcePopup() {
                             onChange={(e) => setForm({ ...form, company: e.target.value })}
                             className="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-sky-500 focus:ring-2 focus:ring-sky-200"
                             placeholder="Acme Mfg."
-                            autoComplete="organization"
+                            autoComplete="off"
                           />
                         </div>
                         <div>
@@ -408,7 +408,7 @@ export default function ResourcePopup() {
                             onChange={(e) => setForm({ ...form, phone: e.target.value })}
                             className="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-sky-500 focus:ring-2 focus:ring-sky-200"
                             placeholder="(779) 555-0100"
-                            autoComplete="tel"
+                            autoComplete="off"
                           />
                         </div>
                       </div>
